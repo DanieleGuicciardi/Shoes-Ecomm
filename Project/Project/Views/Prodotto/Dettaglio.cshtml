@@ -1,0 +1,37 @@
+@model Project.Models.Prodotto
+
+@{
+    ViewData["Title"] = @Model.Nome;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Scarpe & Co - Dettagli</title>
+</head>
+<body>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.Copertina" class="img-fluid rounded shadow" alt="@Model.Nome">
+        </div>
+        <div class="col-md-6">
+            <h2>@Model.Nome</h2>
+            <h4 class="text-success">€@Model.Prezzo.ToString("0.00")</h4>
+            <p>@Model.Descrizione</p>
+
+            <h5 class="mt-4">Altre immagini:</h5>
+            <div class="d-flex">
+                @foreach (var img in Model.ImmaginiAggiuntive)
+                {
+                    <img src="@img" class="img-thumbnail me-2" alt="Immagine aggiuntiva" style="width: 100px; height: 100px;">
+                }
+            </div>
+
+            <a href="@Url.Action("Index", "Prodotto")" class="btn btn-secondary mt-3">Torna alla vetrina</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -34,3 +34,26 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover; 
+}
+
+.img-thumbnail {
+  width: 120px;
+  height: 120px;
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+

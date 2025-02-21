@@ -27,7 +27,7 @@ public class StaticDatabase
             Prezzo = 340,
             Descrizione = "Scarpe sportive desiderate da tutti per via della loro controversa storia",
             Copertina =
-                "https://images.stockx.com/images/Air-Jordan-1-SB-Light-Bone-Black-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1738193358",
+                "https://www.kickgame.com/cdn/shop/products/image-17.png?v=1668005533",
             ImmaginiAggiuntive = new List<string>
             {
                 "https://i.ebayimg.com/images/g/BtkAAOSwR9Zh3bsQ/s-l1200.jpg",

@@ -1,0 +1,17 @@
+/* Stile generale della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Stile per i titoli */
+h1, h2 {
+    color: #333;
+}
+
+/* Stile per il pulsante */
+.btn-primary {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
