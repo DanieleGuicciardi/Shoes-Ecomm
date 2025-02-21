@@ -1,0 +1,48 @@
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet dependencies
+packages/
+*.nupkg
+project.lock.json
+artifacts/
+
+# ASP.NET specific
+wwwroot/node_modules/
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/build/
+wwwroot/*.min.js
+wwwroot/*.min.css
+.env
+
+# Logs and database
+*.log
+logs/
+App_Data/*.mdf
+App_Data/*.ldb
+App_Data/*.sdf
+App_Data/*.db
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider / Resharper
+.idea/
+*.DotSettings.user
+
+# Other IDE specific
+*.vscode/
+.DS_Store
+Thumbs.db
+
