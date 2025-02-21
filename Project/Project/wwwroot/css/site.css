@@ -1,3 +1,8 @@
+* {
+  background: black !important;
+  color: white !important;
+}
+
 html {
   font-size: 14px;
 }
